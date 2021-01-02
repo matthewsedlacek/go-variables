@@ -2,17 +2,10 @@ package main
 
 import "fmt"
 
-var (
-	playerName    string  = "Andre Agassi"
-	sponser       string  = "Head"
-	worldRanking  int     = 1
-	stringTension float32 = 65.5
-)
-
-var (
-	matchesPlayed int = 0
-)
+var i int = 27
 
 func main() {
-	fmt.Println(playerName, sponser, worldRanking, stringTension, matchesPlayed)
+	fmt.Println(i)
+	var i int = 42
+	fmt.Println(i)
 }
