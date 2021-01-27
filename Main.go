@@ -4,8 +4,17 @@ import (
 	"fmt"
 )
 
+const (
+	_ = iota + 2
+	doctor
+	lawyer
+	developer
+	dogSitter
+	accountant
+)
+
 func main() {
-	const m = 10
-	var n int16 = 25
-	fmt.Printf("%v, %T\n", m+n, m+n)
+	var occupationType int = lawyer
+	fmt.Printf("%v\n", occupationType == lawyer)
+	fmt.Printf("%v\n", lawyer)
 }
