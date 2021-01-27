@@ -4,14 +4,8 @@ import (
 	"fmt"
 )
 
-const (
-	_ = iota
-	dogSpecialist
-	catSpecialist
-	snakeSpecialist
-)
-
 func main() {
-	var specialist int = 1
-	fmt.Printf("%v\n", specialist == dogSpecialist)
+	const m = 10
+	var n int16 = 25
+	fmt.Printf("%v, %T\n", m+n, m+n)
 }
